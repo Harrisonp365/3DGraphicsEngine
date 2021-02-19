@@ -1,0 +1,11 @@
+﻿  AppWindow.cpp
+  Main.cpp
+  Window.cpp
+C:\Dev\Gameengine\3DGame\Src\Window.cpp(58,36): error C2440: '=': cannot convert from 'const char [14]' to 'LPCWSTR'
+C:\Dev\Gameengine\3DGame\Src\Window.cpp(58,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Dev\Gameengine\3DGame\Src\Window.cpp(59,22): error C2440: '=': cannot convert from 'const char [1]' to 'LPCWSTR'
+C:\Dev\Gameengine\3DGame\Src\Window.cpp(59,20): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Dev\Gameengine\3DGame\Src\Window.cpp(67,13): error C2664: 'HWND CreateWindowExW(DWORD,LPCWSTR,LPCWSTR,DWORD,int,int,int,int,HWND,HMENU,HINSTANCE,LPVOID)': cannot convert argument 2 from 'const char [14]' to 'LPCWSTR'
+C:\Dev\Gameengine\3DGame\Src\Window.cpp(67,52): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(4436,1): message : see declaration of 'CreateWindowExW'
+  Generating Code...
