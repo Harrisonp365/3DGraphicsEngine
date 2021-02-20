@@ -1,0 +1,1 @@
+If the code has been forked or copied please ensure you have "Use multi-byte character set" enabled in your general configuration settings, so that the program is able to use UTF-8 strings.
