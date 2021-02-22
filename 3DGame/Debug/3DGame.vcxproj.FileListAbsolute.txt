@@ -1,2 +1,0 @@
-C:\Dev\Gameengine\3DGame\Debug\3DGame.exe
-C:\Dev\Gameengine\3DGame\Debug\3DGame.pdb
