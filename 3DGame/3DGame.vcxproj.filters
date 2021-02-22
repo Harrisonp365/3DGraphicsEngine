@@ -7,24 +7,36 @@
     <Filter Include="App">
       <UniqueIdentifier>{6f5a835b-4f7c-4bd7-9cec-da4b4f7ab26f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Engine\WindowingSystem">
+      <UniqueIdentifier>{e638b2ce-53ec-4c06-b804-4eff35d0fd5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Graphics engine">
+      <UniqueIdentifier>{5fd966a4-c421-4cb8-b225-50a5def290b2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Src\Window.cpp">
-      <Filter>Engine</Filter>
-    </ClCompile>
     <ClCompile Include="Src\AppWindow.cpp">
       <Filter>App</Filter>
     </ClCompile>
     <ClCompile Include="Src\Main.cpp">
       <Filter>App</Filter>
     </ClCompile>
+    <ClCompile Include="Src\Window.cpp">
+      <Filter>Engine\WindowingSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsEngine.cpp">
+      <Filter>Engine\Graphics engine</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Src\Window.h">
-      <Filter>Engine</Filter>
-    </ClInclude>
     <ClInclude Include="Src\AppWindow.h">
       <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Window.h">
+      <Filter>Engine\WindowingSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsEngine.h">
+      <Filter>Engine\Graphics engine</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
