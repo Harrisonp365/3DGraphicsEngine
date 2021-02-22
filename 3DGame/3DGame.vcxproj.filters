@@ -4,13 +4,13 @@
     <Filter Include="App">
       <UniqueIdentifier>{6f5a835b-4f7c-4bd7-9cec-da4b4f7ab26f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="App\Engine">
+    <Filter Include="Engine">
       <UniqueIdentifier>{408f351f-c080-4298-b7b1-a9f7d70362ce}</UniqueIdentifier>
     </Filter>
-    <Filter Include="App\Engine\WindowingSystem">
+    <Filter Include="Engine\WindowingSystem">
       <UniqueIdentifier>{e638b2ce-53ec-4c06-b804-4eff35d0fd5c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="App\Engine\Graphics">
+    <Filter Include="Engine\Graphics">
       <UniqueIdentifier>{5fd966a4-c421-4cb8-b225-50a5def290b2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -22,10 +22,10 @@
       <Filter>App</Filter>
     </ClCompile>
     <ClCompile Include="Src\Window.cpp">
-      <Filter>App\Engine\WindowingSystem</Filter>
+      <Filter>Engine\WindowingSystem</Filter>
     </ClCompile>
     <ClCompile Include="GraphicsEngine.cpp">
-      <Filter>App\Engine\Graphics</Filter>
+      <Filter>Engine\Graphics</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -33,10 +33,10 @@
       <Filter>App</Filter>
     </ClInclude>
     <ClInclude Include="Src\Window.h">
-      <Filter>App\Engine\WindowingSystem</Filter>
+      <Filter>Engine\WindowingSystem</Filter>
     </ClInclude>
     <ClInclude Include="GraphicsEngine.h">
-      <Filter>App\Engine\Graphics</Filter>
+      <Filter>Engine\Graphics</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

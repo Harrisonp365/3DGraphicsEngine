@@ -1,8 +1,8 @@
 #pragma once
 #include <d3d11.h>
 
-class SwapChain;
-class DeviceContext;
+//class SwapChain;
+//class DeviceContext;
 
 class GraphicsEngine
 {
