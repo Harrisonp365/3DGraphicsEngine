@@ -1,5 +1,7 @@
 ﻿  GraphicsEngine.cpp
   AppWindow.cpp
   Main.cpp
+  Window.cpp
+  SwapChain.cpp
   Generating Code...
   3DGame.vcxproj -> C:\Dev\Gameengine\3DGame\Debug\3DGame.exe
