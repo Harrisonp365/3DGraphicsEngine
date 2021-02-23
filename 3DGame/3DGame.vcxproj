@@ -149,11 +149,13 @@
     <ClCompile Include="Src\AppWindow.cpp" />
     <ClCompile Include="Src\Main.cpp" />
     <ClCompile Include="Src\Window.cpp" />
+    <ClCompile Include="SwapChain.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GraphicsEngine.h" />
     <ClInclude Include="Src\AppWindow.h" />
     <ClInclude Include="Src\Window.h" />
+    <ClInclude Include="SwapChain.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Src\Readme.md" />
