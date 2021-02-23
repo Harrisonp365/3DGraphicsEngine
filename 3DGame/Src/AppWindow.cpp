@@ -20,6 +20,10 @@ void AppWindow::onCreate()
 void AppWindow::onUpdate()
 {
 	Window::onUpdate();
+	GraphicsEngine::get()->getImmediateDeviceContext()->clearRenderTargetColor(this->m_swap_chain,
+		1, 0, 1, 1); //change screen color here for now to make sure render wroks
+
+	m_swap_chain->present(false);
 }
 
 void AppWindow::onDestroy()
