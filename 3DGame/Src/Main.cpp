@@ -5,10 +5,11 @@ int main()
 	AppWindow app;
 	if (app.init())
 	{
-		while (app.isRunning())
+		while (app.isRun())
 		{
 			app.broadcast();
 		}
 	}
+
 	return 0;
 }

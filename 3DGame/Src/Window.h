@@ -1,27 +1,31 @@
 #pragma once
 #include <Windows.h>
 
+
+
 class Window
 {
 public:
 	Window();
-
+	//Initialize the window
 	bool init();
 	bool broadcast();
+	//Release the window
 	bool release();
-	bool isRunning();
+	bool isRun();
 
 	RECT getClientWindowRect();
 	void setHWND(HWND hwnd);
-	//event methods
+
+
+	//EVENTS
 	virtual void onCreate();
 	virtual void onUpdate();
 	virtual void onDestroy();
 
-	~Window();
 
+	~Window();
 protected:
 	HWND m_hwnd;
-	bool m_isRunning;
+	bool m_is_run;
 };
-

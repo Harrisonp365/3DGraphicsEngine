@@ -4,17 +4,23 @@
     <Filter Include="App">
       <UniqueIdentifier>{6f5a835b-4f7c-4bd7-9cec-da4b4f7ab26f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Engine">
+    <Filter Include="GmeEngine">
       <UniqueIdentifier>{408f351f-c080-4298-b7b1-a9f7d70362ce}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Engine\WindowingSystem">
+    <Filter Include="GmeEngine\WindowingSystem">
       <UniqueIdentifier>{e638b2ce-53ec-4c06-b804-4eff35d0fd5c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Engine\Graphics">
+    <Filter Include="GmeEngine\GraphicsEngine">
       <UniqueIdentifier>{5fd966a4-c421-4cb8-b225-50a5def290b2}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Engine\Graphics\DeviceContext">
+    <Filter Include="GmeEngine\GraphicsEngine\DeviceContext">
       <UniqueIdentifier>{2b7c8cd1-bb49-4e7c-96aa-ae572140835d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GmeEngine\GraphicsEngine\SwapChain">
+      <UniqueIdentifier>{8db5aa5b-4f62-4e48-b2f1-e01d23032f4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GmeEngine\GraphicsEngine\VertexBuffer">
+      <UniqueIdentifier>{b5e6acd4-1661-4003-a364-1b97012c4f64}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -25,16 +31,19 @@
       <Filter>App</Filter>
     </ClCompile>
     <ClCompile Include="Src\Window.cpp">
-      <Filter>Engine\WindowingSystem</Filter>
+      <Filter>GmeEngine\WindowingSystem</Filter>
     </ClCompile>
     <ClCompile Include="GraphicsEngine.cpp">
-      <Filter>Engine\Graphics</Filter>
-    </ClCompile>
-    <ClCompile Include="SwapChain.cpp">
-      <Filter>Engine\Graphics</Filter>
+      <Filter>GmeEngine\GraphicsEngine</Filter>
     </ClCompile>
     <ClCompile Include="DeviceContext.cpp">
-      <Filter>Engine\Graphics\DeviceContext</Filter>
+      <Filter>GmeEngine\GraphicsEngine\DeviceContext</Filter>
+    </ClCompile>
+    <ClCompile Include="SwapChain.cpp">
+      <Filter>GmeEngine\GraphicsEngine\SwapChain</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBuffer.cpp">
+      <Filter>GmeEngine\GraphicsEngine\VertexBuffer</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -42,19 +51,25 @@
       <Filter>App</Filter>
     </ClInclude>
     <ClInclude Include="Src\Window.h">
-      <Filter>Engine\WindowingSystem</Filter>
+      <Filter>GmeEngine\WindowingSystem</Filter>
     </ClInclude>
     <ClInclude Include="GraphicsEngine.h">
-      <Filter>Engine\Graphics</Filter>
-    </ClInclude>
-    <ClInclude Include="SwapChain.h">
-      <Filter>Engine\Graphics</Filter>
+      <Filter>GmeEngine\GraphicsEngine</Filter>
     </ClInclude>
     <ClInclude Include="DeviceContext.h">
-      <Filter>Engine\Graphics\DeviceContext</Filter>
+      <Filter>GmeEngine\GraphicsEngine\DeviceContext</Filter>
+    </ClInclude>
+    <ClInclude Include="SwapChain.h">
+      <Filter>GmeEngine\GraphicsEngine\SwapChain</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBuffer.h">
+      <Filter>GmeEngine\GraphicsEngine\VertexBuffer</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="Src\Readme.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="shader.fx" />
   </ItemGroup>
 </Project>
