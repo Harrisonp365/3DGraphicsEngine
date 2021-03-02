@@ -31,9 +31,11 @@ void AppWindow::onCreate()
 	vertex list[] =
 	{
 		//X - Y - Z
-		{-0.5f,-0.5f,0.0f}, // POS1
-		{0.0f,0.5f,0.0f}, // POS2
-		{ 0.5f,-0.5f,0.0f}
+		{-0.5f, -0.5f, 0.0f}, // POS1
+		{-0.5f, 0.5f, 0.0f}, // POS2
+		{ 0.5f, -0.5f, 0.0f},
+		{ 0.5f, 0.5f, 0.0f}
+		//connect two triangles to create a rect
 	};
 
 	m_vb = GraphicsEngine::get()->createVertexBuffer();
@@ -64,8 +66,8 @@ void AppWindow::onUpdate()
 	//SET THE VERTICES OF THE TRIANGLE TO DRAW
 	GraphicsEngine::get()->getImmediateDeviceContext()->setVertexBuffer(m_vb);
 
-	// FINALLY DRAW THE TRIANGLE
-	GraphicsEngine::get()->getImmediateDeviceContext()->drawTriangleList(m_vb->getSizeVertexList(), 0);
+	// DRAW THE TRIANGLE
+	GraphicsEngine::get()->getImmediateDeviceContext()->drawTriangleStrip(m_vb->getSizeVertexList(), 0);
 	m_swap_chain->present(true);
 }
 
