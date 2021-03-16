@@ -1,2 +1,8 @@
-﻿  AppWindow.cpp
+﻿  GraphicsEngine.cpp
+  AppWindow.cpp
+  Main.cpp
+  SwapChain.cpp
+  VertexBuffer.cpp
+  VertexShader.cpp
+  Generating Code...
   3DGame.vcxproj -> C:\Dev\Gameengine\3DGame\Debug\3DGame.exe

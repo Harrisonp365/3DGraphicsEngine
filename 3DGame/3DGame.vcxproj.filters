@@ -79,6 +79,6 @@
     <None Include="Src\Readme.md" />
   </ItemGroup>
   <ItemGroup>
-    <FxCompile Include="shader.fx" />
+    <FxCompile Include="VertexShader.hlsl" />
   </ItemGroup>
 </Project>

@@ -19,13 +19,12 @@ public:
 	SwapChain* createSwapChain();
 	DeviceContext* getImmediateDeviceContext();
 	VertexBuffer* createVertexBuffer();
-	VertexShader* createVertexShader(const void* shader_byte_code, size_t byte_code_size);
+	VertexShader* createVertexShader(void* shader_byte_code, size_t byte_code_size);
 public:
-	bool compileVertexShader((const wchar_t* file_name, const char* entry_point_name, void** shader_byte_code, size_t* byte_code_size);
+	bool compileVertexShader(const wchar_t* file_name, const char* entry_point_name, void** shader_byte_code, size_t* byte_code_size);
 	void releaseCompiledShader();
 	bool createShaders();
 	bool setShaders();
-	void getShaderBufferAndSize(void** bytecode, UINT* size);
 public:
 	static GraphicsEngine* get();
 

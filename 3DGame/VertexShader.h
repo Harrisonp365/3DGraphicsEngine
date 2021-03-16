@@ -1,6 +1,8 @@
 #pragma once
+#include <d3d11.h>
 
 class GraphcisEngine;
+class DeviceContext;
 
 class VertexShader
 {
@@ -14,5 +16,6 @@ private:
 	ID3D11VertexShader* m_vs;
 
 	friend class GraphicsEngine;
+	friend class DeviceContext;
 };
 
