@@ -152,6 +152,7 @@
     <ClCompile Include="Src\Window.cpp" />
     <ClCompile Include="SwapChain.cpp" />
     <ClCompile Include="VertexBuffer.cpp" />
+    <ClCompile Include="VertexShader.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DeviceContext.h" />
@@ -160,6 +161,7 @@
     <ClInclude Include="Src\Window.h" />
     <ClInclude Include="SwapChain.h" />
     <ClInclude Include="VertexBuffer.h" />
+    <ClInclude Include="VertexShader.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Src\Readme.md" />
